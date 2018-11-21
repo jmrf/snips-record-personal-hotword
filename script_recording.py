@@ -129,8 +129,9 @@ def record_and_trim(hotword_key, nb_records=3):
         "preemphasis_coefficient": 0.97
     }
 
-    with open(os.path.join(directory, "config.json"), "wb") as f:
+    with open(os.path.join(directory, "config.json"), "w") as f:
         json.dump(config, f, indent=4)
+        # f.write(json.dumps(config, indent=4))
 
     print("Your model has been saved in {0}".format(
         os.path.join(os.path.dirname(os.path.realpath(__file__)), directory)))
