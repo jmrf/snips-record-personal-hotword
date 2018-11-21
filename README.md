@@ -32,7 +32,7 @@ Use the following command to install the repository dependencies:
 
 * Install soundfile
 ```bash
-   sudo pip3 install SoundFile
+   pip3 install --user SoundFile
 ```
 
 * Install pyaudio
