@@ -1,0 +1,23 @@
+{
+    "sample_rate": 16000,
+    "kind": "personal",
+    "from_mfcc": 1,
+    "dtw_ref": 0.22,
+    "hotword_key": "phiona",
+    "window_type": "povey",
+    "dither": 0.0,
+    "raw_energy": true,
+    "band_radius": 10,
+    "window_size": 10,
+    "energy_floor": 0.0,
+    "frame_length_ms": 25.0,
+    "preemphasis_coefficient": 0.97,
+    "num_mfcc": 13,
+    "to_mfcc": 13,
+    "mel_low_freq": 20,
+    "num_mel_bins": 13,
+    "cepstral_lifter": 22.0,
+    "use_energy": false,
+    "frame_shift_ms": 10.0,
+    "shift": 10
+}

@@ -1,0 +1,23 @@
+{
+    "frame_length_ms": 25.0,
+    "dtw_ref": 0.22,
+    "num_mel_bins": 13,
+    "preemphasis_coefficient": 0.97,
+    "sample_rate": 16000,
+    "energy_floor": 0.0,
+    "shift": 10,
+    "num_mfcc": 13,
+    "cepstral_lifter": 22.0,
+    "kind": "personal",
+    "from_mfcc": 1,
+    "hotword_key": "phiona-marcos",
+    "use_energy": false,
+    "window_type": "povey",
+    "band_radius": 10,
+    "to_mfcc": 13,
+    "dither": 0.0,
+    "mel_low_freq": 20,
+    "window_size": 10,
+    "frame_shift_ms": 10.0,
+    "raw_energy": true
+}
